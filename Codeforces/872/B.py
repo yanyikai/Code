@@ -1,0 +1,5 @@
+n,k=map(int,input().split())
+a=list(map(int,input().split()))
+if k==2:print(max(a[0],a[-1]))
+elif k==1:print(min(a))
+else:print(max(a))
