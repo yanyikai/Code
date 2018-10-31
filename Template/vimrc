@@ -1,0 +1,15 @@
+set lines=50 columns=80
+map <C-a> ggVG
+map! <C-a> <Esc>ggVG
+map <C-c> y
+map! <C-c> <Esc>y
+map <C-v> p
+map! <C-v> <Esc>p
+map <C-z> u
+map! <C-z> <Esc>u
+map <C-y> .
+map! <C-y> <Esc>.
+set cin nu ts=4 sw=4 sts=4 et nobackup noswapfile so=100 
+set cursorline showcmd
+hi CursorLine cterm=NONE ctermbg=238 ctermfg=none
+
