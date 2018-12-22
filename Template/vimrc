@@ -7,9 +7,11 @@ map <C-v> p
 map! <C-v> <Esc>p
 map <C-z> u
 map! <C-z> <Esc>u
-map <C-y> .
-map! <C-y> <Esc>.
+map <C-y> <C-r>
+map! <C-y> <Esc><C-r>
 set cin nu ts=4 sw=4 sts=4 et nobackup noswapfile so=100 
 set cursorline showcmd
 hi CursorLine cterm=NONE ctermbg=238 ctermfg=none
-
+inoremap ' ''<Esc>i
+inoremap " ""<Esc>i
+inoremap { {}<Esc>i<C-lf><Esc>k<S-$><Esc>a
